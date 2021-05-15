@@ -127,8 +127,8 @@ body {
 }
 .plate {
   background-color: gray;
-  width: 350px;
-  height: 350px;
+  width: 500px;
+  height: 500px;
   margin: 12px;
   border-radius: 50%;
   position: relative;
@@ -147,7 +147,6 @@ body {
   right: -6px;
   bottom: -6px;
   left: -6px;
-  border: 6px solid gold;
   box-shadow: inset 0px 0px 0px 2px #b39700, 0px 0px 0px 2px #ffeb80;
 }
 .plate:before {
@@ -168,11 +167,11 @@ body {
   position: absolute;
   top: 0;
   left: calc(50% - (32px/2));
-  transform-origin: 50% 100%;
-  background-color: transparent;
-  border-left: 16px solid transparent;
-  border-right: 16px solid transparent;
-  border-top: 175px solid black;
+  transform-origin: 39% 100%;
+  /* background-color: red; */
+  border-left: 23px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 250px solid black;
   box-sizing: border-box;
 }
 .number:nth-child(odd) {
@@ -194,8 +193,8 @@ body {
 }
 .inner {
   display: block;
-  height: 350px;
-  width: 350px;
+  height: 500px;
+  width: 500px;
   position: relative;
 }
 .inner:after,
@@ -527,7 +526,7 @@ body {
   line-height: 1;
 }
 .previous-results {
-  max-width: 350px;
+  max-width: 500px;
   margin: 24px 12px;
 }
 .previous-list {
