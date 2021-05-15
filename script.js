@@ -3,7 +3,7 @@ var $inner = $('.inner'),
      $reset = $('#reset'),
      $data = $('.data'),
      $mask = $('.mask'),
-     maskDefault = 'Prueba',
+     maskDefault ,
      timer = 9000;
 
 var red = [32,19,21,25,34,27,36,30,23,5,16,1,14,9,18,7,12,3];
@@ -40,7 +40,7 @@ $spin.on('click',function(){
   setTimeout(function() {
     $reset.removeClass('disabled').prop('disabled','');
     
-    if($.inArray(randomNumber, red) !== -1){ color = 'red'} else { color = 'black'};
+    if($.inArray(randomNumber, red) !== -1){ color = '#D2AC57'} else { color = 'black'};
     if(randomNumber == 0){color = 'green'};
     
     $('.result-number').text(randomNumber);
